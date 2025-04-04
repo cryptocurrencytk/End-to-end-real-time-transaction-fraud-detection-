@@ -16,7 +16,6 @@ The architecture follows modern MLOps principles with a cloud-native approach. I
 - [Usage](#usage)
 - [Development](#development)
 - [Monitoring](#monitoring)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
@@ -148,9 +147,13 @@ Key configuration is managed via:
 3. Monitor the training process through the Airflow UI at
    http://localhost:3333.
 
-## Monitor System Performance
+## Monitoring
 
 - **Airflow UI**: Monitor pipeline execution, logs, and status.
 - **MLflow UI**: Check model performance metrics and experiment history.
 - **Spark UI**: View metrics related to streaming jobs and resource usage.
 - **Logs Directory**: Check `logs/` for detailed logs about training, inference, and system operations.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
